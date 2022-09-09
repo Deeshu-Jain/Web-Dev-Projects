@@ -1,0 +1,48 @@
+body{
+    background: #ADD8E6;
+}
+
+h1{
+    border: 1px solid black;
+}
+
+h1:hover{
+    color: gray;
+}
+
+h2{
+    color: purple;
+}
+
+input{
+    border: 2px solid darkred;
+}
+
+div p{
+    background: lightyellow;
+}
+
+#blogarea{
+    border: 5px solid gray;
+    width: 800px;
+    height: 400px;
+}
+
+a{
+    color: red;
+}
+
+a:visited{
+    color: blue;
+}
+
+#text_input{
+    color: purple;
+    text-decoration: overline;
+}
+
+.container2{
+    background: blue;
+    border: 2px dashed yellow;
+}
+

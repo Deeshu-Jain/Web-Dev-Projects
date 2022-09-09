@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>PROJECT 2</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+        <h1>Survey Page</h1>
+        <h2>A Form made using only HTML</h2>
+        <form action="thankyou.html" method="get">
+            <p>Please Note: First Name, Last Name, Password, and Email are required</p>
+            <label for="fname">First Name: </label>
+            <input id="fname" type="text" name="Firstname" placeholder="First Name" required>
+            <label for="lname">Last Name: </label>
+            <input id="lname" type="text" name="Lastname" placeholder="Last Name" required>
+            <br><br>
+            <label for="mail">Email: </label>
+            <input id="mail" type="email" name="Email" placeholder="name@email.com" required>
+            <label for="pass">Password: </label>
+            <input id="pass" type="password" name="Password" required>
+            <p>Are you over the age of 18?</p>
+            <label for="yes">Yes: </label>
+            <input id="yes" type="radio" name="age">
+            <label for="no">No: </label>
+            <input id="no" type="radio" name="age">
+            <p>Select your top skill</p>
+            <select name="Skill">
+                <option value="ML">Machine Learning</option>
+                <option value="WEBD">Web Development</option>
+                <option value="APPD">App Development</option>
+                <option value="DM">Digital Marketing</option>
+            </select>
+            <br><br>
+            <input type="submit" value="Submit">
+        </form>
+
+
+    </body>
+</html>

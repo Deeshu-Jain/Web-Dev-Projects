@@ -1,0 +1,59 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+
+th{
+    width: 150px;
+    height: 300px;
+    border: 5px solid white;
+}
+
+
+.colors{
+    margin: auto;
+}
+
+
+.first{
+    background: #05668d;
+}
+.first:hover{
+    background: #02c39a;
+}
+
+
+.second{
+    background: #028090;
+}
+.second:hover{
+    background: #f0f3bd;
+}
+
+
+.third{
+    background: #00a896;
+}
+.third:hover{
+    background: #05668d;
+}
+
+
+.fourth{
+    background: #02c39a;
+}
+.fourth:hover{
+    background: #028090;
+}
+
+
+.fifth{
+    background: #f0f3bd;
+}
+.fifth:hover{
+    background: #00a896;
+}
+
+
+
